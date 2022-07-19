@@ -1,0 +1,38 @@
+.do {
+  padding-bottom: 94px;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+.do__item {
+  margin: 15px;
+  position: relative;
+  width: calc((100% - 3 * 30px) / 3);
+}
+.do__list {
+  display: flex;
+  margin: -15px;
+}
+.do__images {
+  max-width: 100%;
+}
+.do__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+  color: $color-main;
+}
+.do__text--position {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
